@@ -1,0 +1,50 @@
+## Age Calculator GUI — OOP Semester Project
+
+This project is a Java Swing application developed as part of my Object-Oriented Programming course. It calculates the exact age between two dates with a graphical interface, allowing users to determine how old they will be (or were) on any specific date.
+
+### Project Overview
+
+The application enables users to:
+
+* Enter their date of birth (DOB).
+* Specify a target date to calculate their age at that moment.
+* View the difference in years, months, days, total days, hours, minutes, and seconds.
+
+The interface provides real-time date validation, highlighting invalid inputs and ensuring only correct dates are used for calculations.
+
+### Key Features
+
+* Interactive GUI: Built with Java Swing components such as `JFrame`, `JPanel`, `JComboBox`, `JTextField`, and `JButton`.
+* Accurate Calculations: Uses `LocalDate` and `Period` from the `java.time` package to handle complex date differences reliably.
+* Detailed Output: Displays the calculated age in multiple formats for comprehensive results.
+* Date Validation: Checks for invalid dates like February 30, incorrect day/month combinations, and unreasonable years.
+
+### How to Run
+
+1. Clone this repository or download the `Main.java` file:
+
+   git clone https://github.com/your-username/your-repo-name.git
+  
+2. Navigate to the project directory.
+3. Compile the program:
+
+   javac Main.java
+
+4. Run the application:
+
+   java Main
+
+### Technologies Used
+
+* Java SE
+* Swing for GUI
+* `java.time` API for date calculations
+
+### Learning Outcomes
+
+This project strengthened my understanding of:
+
+* Event-driven programming with Java Swing
+* Managing user input in GUIs
+* Working with date and time in Java
+* Structuring an object-oriented program with proper design
